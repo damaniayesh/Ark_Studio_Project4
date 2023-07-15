@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+}
+/* Nav_Bar */
+.t_nav{
+        background-image: url("../img/billboard.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 560px;
+        position: relative;
+        overflow: hidden;
+    }
+
+.nav_bar{
+    background-color:rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+}
+ 
+#nav_list{
+    float: right;
+    margin-right: 200px;
+    font-size: 17px;
+}
+
+#nav_list a{
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 14px;
+}
+
+#nav_list a:hover{
+    color: blue;
+}
+
+.t_nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#logo{
+    margin-left: 250px;
+    width: 80px;
+}
+
+/* Section_1 Have a project in mind */
+.text{
+    margin-top: 500px;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+#para, #link{
+    display: inline-block;
+}
+
+.text a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #66c2ff;
+    padding: 8px;
+    word-spacing: 2px;
+}
+
+p#para{
+    color: black;
+    margin-left: 10px;
+    word-spacing: 2px;
+}
+
+#link{
+    background-color: #66c2ff;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+#link:hover{
+    background-color: blue;
+}
+
+/* Section_2  */
+.parent{
+    margin: auto;
+    width: 60%;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+}
+
+h1.title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+ul.list{
+    list-style-type: none;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.parent li{
+    text-align: center;
+    display: block;
+}
+
+#img{
+    width: 500px;
+    text-align: center;
+    margin-left: 135px;
+}
+
+/* Section_3 */
+.container{
+    display: flex;
+}
+
+.image{
+    width: 252px;
+}
+
+/* Scetion_4 Testimonials */
+.testimonials{
+    margin: auto;
+    width: 60%;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    /* padding: 10px; */
+}
+
+.test_heading{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.list{
+    text-align: center;
+    /* padding: 40px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.test_img{
+    border-radius: 50px;
+}
+
+testimonials.li{
+    text-align: center;
+    display: block;
+}
+
+.text_span{
+    font-size: x-small;
+    word-spacing: 3px;
+}
+
+.test_descrip{
+    text-align: center;
+    padding: 0px 10px 10px 10px; /*Top right bottom left*/
+}
+
+/* Section_5 Brand */
+.box{
+    width: 1263px;
+    height: 80px;
+    background-color: #f2f2f2;
+}
+
+.brand{
+    width: 758px;
+    height: 50px;
+    padding-left: 251px;
+    padding-top: 27px;
+}
+
+#padding1{
+    padding-left: 78px;
+}
+
+#padding2{
+    padding-left: 78px;
+}
+
+#padding3{
+    padding-left: 78px;
+}
+
+#padding4{
+    padding-left: 78px;
+}
+
+/* Section_6 Footer */
+.main-footer{
+    width: 1263px;
+    height: 400px;
+    background-color: #020203d2;
+}
+
+
+.first_section{
+    margin: auto;
+    width: 60%;
+    border: none;
+    background-color: #4d4d4e;
+}
+
+p#para1{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding: 10px;
+    word-spacing: 2px;
+    font-size: medium;
+    display:inline;
+}
+
+.first_section a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #66c2ff;
+    padding: 8px;
+    word-spacing: 2px;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+
+.child_location{
+    position: absolute;
+    top: 2050px;
+    left: 250px;
+    color: #fff;
+    line-height:25px;
+}
+
+.child_company{
+    position: absolute;
+    top: 2050px;
+    left: 450px;
+    color: #fff;
+}
+
+.company_list{
+    list-style-type: none;
+    line-height: 26px;
+} 
+
+.child_support{
+    position: absolute;
+    top: 2050px;
+    left: 650px;
+    color: #fff;
+}
+
+.support_list{
+    list-style-type: none;
+    line-height: 26px;
+}
+
+.child_ARK{
+    position: absolute;
+    top: 2050px;
+    left: 850px;
+    color: #fff;
+    line-height:25px;
+}
+
+.copyright{
+    color: #fff;
+    font-size: small;
+    position: absolute;
+    top: 2280px;
+    left: 550px;
+    
+}
